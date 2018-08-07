@@ -26,6 +26,7 @@ npm i -D babel-eslint eslint eslint-config-airbnb eslint-plugin-import eslint-pl
   "env": {
     "browser": true,
     "node": true,
+    "jquery": true,
     "jest": true
   },
   "rules": {
@@ -40,7 +41,7 @@ npm i -D babel-eslint eslint eslint-config-airbnb eslint-plugin-import eslint-pl
     "prefer-const": [
       "error",
       {
-        "destructuring": "all"
+        "destructuring": "all",
       }
     ],
     "arrow-body-style": [
@@ -61,12 +62,9 @@ npm i -D babel-eslint eslint eslint-config-airbnb eslint-plugin-import eslint-pl
     ],
     "no-console": 0,
     "import/prefer-default-export": 0,
-    "no-use-before-define": 0,
     "import": 0,
     "func-names": 0,
-    "space-before-function-paren": "error",
-    "array-callback-return": 0,
-    "global-require": 0,
+    "space-before-function-paren": 0,
     "comma-dangle": 0,
     "max-len": 0,
     "import/extensions": 0,
@@ -77,10 +75,8 @@ npm i -D babel-eslint eslint eslint-config-airbnb eslint-plugin-import eslint-pl
     "react/react-in-jsx-scope": 0,
     "react/prefer-stateless-function": 0,
     "react/forbid-prop-types": 0,
-    "react/prop-types": 0,
     "react/no-unescaped-entities": 0,
     "jsx-a11y/accessible-emoji": 0,
-    "jsx-a11y/label-has-for": 0,
     "react/jsx-filename-extension": [
       1,
       {
@@ -118,7 +114,7 @@ npm i -D babel-eslint eslint eslint-config-airbnb eslint-plugin-import eslint-pl
       {
         "trailingComma": "es5",
         "singleQuote": true,
-        "printWidth": 100
+        "printWidth": 100,
       }
     ],
     "jsx-a11y/href-no-hash": "off",
