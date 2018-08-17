@@ -1,0 +1,32 @@
+{
+    "workbench.colorTheme": "Night Owl",
+    "workbench.editor.tabSizing": "shrink",
+    "markdown.preview.fontFamily": "Operator Mono",
+    "editor.fontFamily": "Operator Mono",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.fontWeight": "normal",
+    "editor.wordWrap": "on",
+    "editor.lineHeight": 30,
+    "editor.fontSize": 16,
+    "editor.tabSize": 2,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "editor.minimap.enabled": false,
+    "editor.matchBrackets": true,
+    "editor.renderLineHighlight": "none",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "eslint.autoFixOnSave": true,
+    "eslint.alwaysShowStatus": true,
+    "editor.colorDecorators": false,
+    "emmet.triggerExpansionOnTab": false,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": true,
+    "files.trimTrailingWhitespace": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+}
